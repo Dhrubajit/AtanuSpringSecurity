@@ -1,0 +1,23 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.atanu.java.springboot.config.SecurityProperties",
+      "name": "security",
+      "type": "com.atanu.java.springboot.config.SecurityProperties"
+    },
+    {
+      "sourceType": "com.atanu.java.springboot.config.SecurityProperties",
+      "name": "security.jwt",
+      "sourceMethod": "getJwt()",
+      "type": "com.atanu.java.springboot.config.SecurityProperties$JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.atanu.java.springboot.config.SecurityProperties$JwtProperties",
+      "name": "security.jwt.public-key",
+      "type": "org.springframework.core.io.Resource"
+    }
+  ]
+}

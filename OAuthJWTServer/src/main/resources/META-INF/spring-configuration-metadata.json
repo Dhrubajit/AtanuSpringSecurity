@@ -1,0 +1,38 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.atanu.spring.security.oauth.properties.SecurityProperties",
+      "name": "security",
+      "type": "com.atanu.spring.security.oauth.properties.SecurityProperties"
+    },
+    {
+      "sourceType": "com.atanu.spring.security.oauth.properties.SecurityProperties",
+      "name": "security.jwt",
+      "sourceMethod": "getJwt()",
+      "type": "com.atanu.spring.security.oauth.properties.SecurityProperties$JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.atanu.spring.security.oauth.properties.SecurityProperties$JwtProperties",
+      "name": "security.jwt.key-pair-alias",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atanu.spring.security.oauth.properties.SecurityProperties$JwtProperties",
+      "name": "security.jwt.key-pair-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atanu.spring.security.oauth.properties.SecurityProperties$JwtProperties",
+      "name": "security.jwt.key-store",
+      "type": "org.springframework.core.io.Resource"
+    },
+    {
+      "sourceType": "com.atanu.spring.security.oauth.properties.SecurityProperties$JwtProperties",
+      "name": "security.jwt.key-store-password",
+      "type": "java.lang.String"
+    }
+  ]
+}
